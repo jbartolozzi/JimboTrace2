@@ -1,2 +1,4 @@
-# JimboTrace2
-Path tracer for mac
+JimboTrace2
+===========
+
+Path tracer for mac osx

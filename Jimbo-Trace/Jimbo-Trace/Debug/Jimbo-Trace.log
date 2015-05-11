@@ -1,0 +1,34 @@
+﻿Build started 12/26/2013 5:02:06 PM.
+     1>Project "D:\Documents\Jimbo-Trace\Jimbo-Trace\Jimbo-Trace.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Programs\Visual Studio 2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt raytrace.cpp
+         raytrace.cpp
+     1>d:\documents\jimbo-trace\jimbo-trace\raytrace.cpp(7): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\documents\jimbo-trace\jimbo-trace\raytrace.cpp(26): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\documents\jimbo-trace\jimbo-trace\raytrace.cpp(112): warning C4244: '=' : conversion from 'float' to 'ebmpBYTE', possible loss of data
+     1>d:\documents\jimbo-trace\jimbo-trace\raytrace.cpp(113): warning C4244: '=' : conversion from 'float' to 'ebmpBYTE', possible loss of data
+     1>d:\documents\jimbo-trace\jimbo-trace\raytrace.cpp(114): warning C4244: '=' : conversion from 'float' to 'ebmpBYTE', possible loss of data
+     1>d:\documents\jimbo-trace\jimbo-trace\raytrace.cpp(205): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\documents\jimbo-trace\jimbo-trace\raytrace.cpp(231): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\documents\jimbo-trace\jimbo-trace\raytrace.cpp(279): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\documents\jimbo-trace\jimbo-trace\raytrace.cpp(282): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\documents\jimbo-trace\jimbo-trace\raytrace.cpp(283): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\documents\jimbo-trace\jimbo-trace\raytrace.cpp(286): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\documents\jimbo-trace\jimbo-trace\raytrace.cpp(419): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\documents\jimbo-trace\jimbo-trace\raytrace.cpp(439): warning C4244: '=' : conversion from 'float' to 'ebmpBYTE', possible loss of data
+     1>d:\documents\jimbo-trace\jimbo-trace\raytrace.cpp(440): warning C4244: '=' : conversion from 'float' to 'ebmpBYTE', possible loss of data
+     1>d:\documents\jimbo-trace\jimbo-trace\raytrace.cpp(441): warning C4244: '=' : conversion from 'float' to 'ebmpBYTE', possible loss of data
+       Link:
+         D:\Programs\Visual Studio 2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\Jimbo-Trace\Debug\Jimbo-Trace.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Documents\Jimbo-Trace\Debug\Jimbo-Trace.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\Jimbo-Trace\Debug\Jimbo-Trace.lib" /MACHINE:X86 Debug\camera.obj
+         Debug\EasyBMP.obj
+         Debug\main.obj
+         Debug\material.obj
+         Debug\primative.obj
+         Debug\raytrace.obj
+         Debug\stubs.obj
+         Jimbo-Trace.vcxproj -> D:\Documents\Jimbo-Trace\Debug\Jimbo-Trace.exe
+     1>Done Building Project "D:\Documents\Jimbo-Trace\Jimbo-Trace\Jimbo-Trace.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.98

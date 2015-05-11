@@ -1,0 +1,37 @@
+﻿Build started 12/26/2013 6:05:52 PM.
+     1>Project "D:\Documents\Jimbo-Trace\Jimbo-Trace\Jimbo-Trace.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Programs\Visual Studio 2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /D _MBCS /D _CRT_SECURE_NO_DEPRECATE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt raytrace.cpp
+         raytrace.cpp
+     1>d:\documents\jimbo-trace\jimbo-trace\EasyBMP.h(27): warning C4005: '_CRT_SECURE_NO_DEPRECATE' : macro redefinition
+                 command-line arguments :  see previous definition of '_CRT_SECURE_NO_DEPRECATE'
+     1>raytrace.cpp(9): warning C4305: '=' : truncation from 'double' to 'float'
+     1>raytrace.cpp(28): warning C4305: '=' : truncation from 'double' to 'float'
+     1>raytrace.cpp(116): warning C4244: '=' : conversion from 'float' to 'ebmpBYTE', possible loss of data
+     1>raytrace.cpp(117): warning C4244: '=' : conversion from 'float' to 'ebmpBYTE', possible loss of data
+     1>raytrace.cpp(118): warning C4244: '=' : conversion from 'float' to 'ebmpBYTE', possible loss of data
+     1>raytrace.cpp(220): warning C4018: '<' : signed/unsigned mismatch
+     1>raytrace.cpp(246): warning C4018: '<' : signed/unsigned mismatch
+     1>raytrace.cpp(299): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>raytrace.cpp(302): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>raytrace.cpp(303): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>raytrace.cpp(306): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>raytrace.cpp(460): warning C4244: '=' : conversion from 'float' to 'ebmpBYTE', possible loss of data
+     1>raytrace.cpp(461): warning C4244: '=' : conversion from 'float' to 'ebmpBYTE', possible loss of data
+     1>raytrace.cpp(462): warning C4244: '=' : conversion from 'float' to 'ebmpBYTE', possible loss of data
+       Link:
+         D:\Programs\Visual Studio 2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\Jimbo-Trace\Release\Jimbo-Trace.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Documents\Jimbo-Trace\Release\Jimbo-Trace.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\Jimbo-Trace\Release\Jimbo-Trace.lib" /MACHINE:X86 /SAFESEH Release\camera.obj
+         Release\EasyBMP.obj
+         Release\main.obj
+         Release\material.obj
+         Release\primative.obj
+         Release\raytrace.obj
+         Release\stubs.obj
+         Generating code
+         Finished generating code
+         Jimbo-Trace.vcxproj -> D:\Documents\Jimbo-Trace\Release\Jimbo-Trace.exe
+     1>Done Building Project "D:\Documents\Jimbo-Trace\Jimbo-Trace\Jimbo-Trace.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.75
